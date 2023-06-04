@@ -1,21 +1,28 @@
 {
-  "dependencies": {
-    "@nestjs/cli": "^9.4.1",
-    "@nestjs/config": "^2.3.1",
-    "@nestjs/schematics": "^9.1.0",
-    "@nestjs/typeorm": "^9.0.1",
-    "@types/node": "^18.15.11",
-    "reflect-metadata": "^0.1.13",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
-  },
-  "scripts": {
-    "start": "ts-node index.ts"
-  },
-  "name": "ts",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/rudxor02/ts.git",
-  "author": "rudxor02 <rudxor07@naver.com>",
-  "license": "MIT"
+    "dependencies": {
+        "@aws-sdk/client-ec2": "^3.344.0",
+        "@aws-sdk/client-ecs": "^3.345.0",
+        "@aws-sdk/types": "^3.342.0",
+        "@nestjs/cli": "^9.4.1",
+        "@nestjs/config": "^2.3.1",
+        "@nestjs/schematics": "^9.1.0",
+        "@nestjs/typeorm": "^9.0.1",
+        "@types/node": "^18.15.11",
+        "moment": "^2.29.4",
+        "reflect-metadata": "^0.1.13",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4",
+        "winston": "^3.9.0"
+    },
+    "scripts": {
+        "start": "ts-node index.ts",
+        "measure-task-running-time": "ts-node measure-task-running-time.ts",
+        "measure-ec2-boot-time": "ts-node measure-ec2-boot-time.ts"
+    },
+    "name": "ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/rudxor02/ts.git",
+    "author": "rudxor02 <rudxor07@naver.com>",
+    "license": "MIT"
 }

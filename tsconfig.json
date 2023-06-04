@@ -10,7 +10,8 @@
         "target": "es6",
         "sourceMap": true,
         "allowJs": true
+        // "noUnusedLocals": true
     },
-    "include": ["index.ts"],
+    "include": ["*.ts"],
     "exclude": ["node_modules", "**/node_modules/*"]
 }
